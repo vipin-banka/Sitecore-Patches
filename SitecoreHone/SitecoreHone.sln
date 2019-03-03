@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{3F400D41-F288-43C1-AC93-0BEE2EFE877E}"
+	ProjectSection(SolutionItems) = preProject
+		gulp-config.local.js = gulp-config.local.js
+		gulpfile.js = gulpfile.js
+		package.json = package.json
+		TdsGlobal.config = TdsGlobal.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{256AEECE-7400-4F57-B888-1E90F188DCC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{FF705B61-7353-49FC-96E8-38145217262F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{2C7EB3D3-D29D-4EBB-96AE-685AC51CA871}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Commerce", "Commerce", "{86849EF4-97B1-4E48-864A-D5ECEC694253}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{9524A527-D9D8-48A7-BEC6-6876C6A44667}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreHone.Commerce.XA.Foundation.Common", "src\Foundation\Commerce\Common\code\SitecoreHone.Commerce.XA.Foundation.Common.csproj", "{EB188540-BEF3-41C5-856E-9C31EFD5C748}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB188540-BEF3-41C5-856E-9C31EFD5C748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB188540-BEF3-41C5-856E-9C31EFD5C748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB188540-BEF3-41C5-856E-9C31EFD5C748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB188540-BEF3-41C5-856E-9C31EFD5C748}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{86849EF4-97B1-4E48-864A-D5ECEC694253} = {FF705B61-7353-49FC-96E8-38145217262F}
+		{9524A527-D9D8-48A7-BEC6-6876C6A44667} = {86849EF4-97B1-4E48-864A-D5ECEC694253}
+		{EB188540-BEF3-41C5-856E-9C31EFD5C748} = {9524A527-D9D8-48A7-BEC6-6876C6A44667}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FA01FE6-D7A1-4A07-A3C4-2850287CD328}
+	EndGlobalSection
+EndGlobal

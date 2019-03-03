@@ -1,0 +1,50 @@
+################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/node_modules
+/src/Project/node_modules
+/gulp-config.local.js
+/.vs
+/packages
+/SitecoreHone.sln.DotSettings.user
+**/.vscode/*
+
+#Ignore thumbnails created by Windows
+Thumbs.db
+#Ignore files built by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+.vs/
+#Nuget packages folder
+packages/
+/semantic
+
+**/node_modules
+**/node_modules/**/*
+**/node_modules/*
+/src/Project/node_modules
+/commerce_engine_902/src/Sitecore.Commerce.Engine/wwwroot/logs

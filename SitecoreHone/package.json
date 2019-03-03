@@ -1,0 +1,36 @@
+{
+  "name": "SitecoreHone",
+  "version": "1.0.0",
+  "description": "Sitecore Hone Helix Project.",
+  "main": "gulp-config.js",
+  "browser": {
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "jquery": "$",
+    "bsCarousel": {
+      "depends": [
+        "bsUtil"
+      ]
+    }
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp sass",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://rightpoint.visualstudio.com/Rightpoint%20-%20Sitecore%20Commerce%20POC/_git/Sitecore%20Commerce%20POC"
+  },
+  "author": "",
+  "license": "ISC"
+}
